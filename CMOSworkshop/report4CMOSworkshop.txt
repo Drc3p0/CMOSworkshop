@@ -1,0 +1,266 @@
+Info: Reading netlist file "/Users/Drc3p0/Desktop/CMOSworkshop/CMOSworkshop.net".
+
+Info: Using references to match components and footprints.
+
+* Warning: component 'R10': board footprint '4ms-main-parts:R-TH-1%2f8W', netlist footprint 'Resistors_ThroughHole:Resistor_Vertical_RM7.5mm'
+
+* Warning: component 'P3': board footprint 'Pin_Headers:Pin_Header_Straight_2x12_Pitch2.54mm', netlist footprint 'Pin_Headers:Pin_Header_Angled_2x12_Pitch2.54mm'
+
+* Warning: component 'C10': board footprint '4ms-main-parts:C-TH-5MM', netlist footprint 'Capacitors_ThroughHole:C_Radial_D5_L6_P2.5'
+
+* Warning: component 'C12': board footprint '4ms-main-parts:C-TH-5MM', netlist footprint 'Capacitors_ThroughHole:C_Radial_D5_L6_P2.5'
+
+* Warning: component 'C13': board footprint '4ms-main-parts:C-TH-5MM', netlist footprint 'Capacitors_ThroughHole:C_Radial_D5_L6_P2.5'
+
+* Warning: component 'C8': board footprint '4ms-main-parts:C-TH-5MM', netlist footprint 'Capacitors_ThroughHole:C_Radial_D5_L6_P2.5'
+
+* Warning: component 'RV1': board footprint '4ms-footprints:POT-9MM-ALPHA', netlist footprint '4ms-main-parts:16MM-RV16AF-4A'
+
+* Warning: component 'RV4': board footprint '4ms-footprints:POT-9MM-ALPHA', netlist footprint '4ms-main-parts:16MM-RV16AF-4A'
+
+* Warning: component 'RV6': board footprint '4ms-footprints:POT-9MM-ALPHA', netlist footprint '4ms-main-parts:16MM-RV16AF-4A'
+
+* Warning: component 'RV2': board footprint '4ms-footprints:POT-9MM-ALPHA', netlist footprint '4ms-main-parts:16MM-RV16AF-4A'
+
+* Warning: component 'RV3': board footprint '4ms-footprints:POT-9MM-ALPHA', netlist footprint '4ms-main-parts:16MM-RV16AF-4A'
+
+* Warning: component 'RV5': board footprint '4ms-footprints:POT-9MM-ALPHA', netlist footprint '4ms-main-parts:16MM-RV16AF-4A'
+
+* Warning: component 'RV8': board footprint '4ms-footprints:POT-9MM-ALPHA', netlist footprint '4ms-footprints:16MM-RV16AF-4A'
+
+* Warning: component 'RV7': board footprint '4ms-footprints:POT-9MM-ALPHA', netlist footprint '4ms-footprints:16MM-RV16AF-4A'
+
+Error: No footprint defined for component 'J1'.
+
+Error: No footprint defined for component 'H2'.
+
+Error: No footprint defined for component 'H1'.
+
+Error: No footprint defined for component 'H6'.
+
+Error: No footprint defined for component 'H5'.
+
+Error: No footprint defined for component 'H3'.
+
+Error: No footprint defined for component 'H4'.
+
+Info: Checking netlist component footprint "C7:/589D4DD6/589D5FCE:Capacitors_THT:CP_Radial_D5.0mm_P2.50mm".
+
+Info: Checking netlist component footprint "C8:/589D4DD6/58A27D1D:Capacitors_ThroughHole:C_Radial_D5_L6_P2.5".
+
+Info: Checking netlist component footprint "C9:/589D4DD6/58A27E7C:Capacitors_THT:CP_Radial_D5.0mm_P2.50mm".
+
+Info: Checking netlist component footprint "C10:/589D4DD6/58A28220:Capacitors_ThroughHole:C_Radial_D5_L6_P2.5".
+
+Info: Checking netlist component footprint "C11:/589D4DD6/589D6047:Capacitors_THT:CP_Radial_D5.0mm_P2.50mm".
+
+Info: Checking netlist component footprint "C12:/589D4DD6/589D65A2:Capacitors_ThroughHole:C_Radial_D5_L6_P2.5".
+
+Info: Checking netlist component footprint "C13:/589D4DD6/589D6644:Capacitors_ThroughHole:C_Radial_D5_L6_P2.5".
+
+Info: Checking netlist component footprint "C14:/589D6CC1/589D6E67:Capacitors_THT:CP_Radial_D5.0mm_P2.50mm".
+
+Info: Checking netlist component footprint "C15:/589D6CC1/589D6EAB:Capacitors_THT:CP_Radial_D5.0mm_P2.50mm".
+
+Info: Checking netlist component footprint "C16:/589D6CC1/589D6EC1:Capacitors_THT:CP_Radial_D5.0mm_P2.50mm".
+
+Info: Checking netlist component footprint "C17:/589D6CC1/589D6ED9:Capacitors_THT:CP_Radial_D5.0mm_P2.50mm".
+
+Info: Checking netlist component footprint "C18:/589D6CC1/589D6EF5:Capacitors_THT:CP_Radial_D5.0mm_P2.50mm".
+
+Info: Checking netlist component footprint "C19:/589D6CC1/589D6F12:Capacitors_THT:CP_Radial_D5.0mm_P2.50mm".
+
+Info: Checking netlist component footprint "H1:/589D2F8E/58A66484:".
+
+Error: Cannot add new component "H1:/589D2F8E/58A66484" due to missing footprint "".
+
+Info: Checking netlist component footprint "H2:/589D2F8E/58A66124:".
+
+Error: Cannot add new component "H2:/589D2F8E/58A66124" due to missing footprint "".
+
+Info: Checking netlist component footprint "H3:/589D2F8E/58A66C80:".
+
+Error: Cannot add new component "H3:/589D2F8E/58A66C80" due to missing footprint "".
+
+Info: Checking netlist component footprint "H4:/589D2F8E/58A66E56:".
+
+Error: Cannot add new component "H4:/589D2F8E/58A66E56" due to missing footprint "".
+
+Info: Checking netlist component footprint "H5:/589D2F8E/58A66A70:".
+
+Error: Cannot add new component "H5:/589D2F8E/58A66A70" due to missing footprint "".
+
+Info: Checking netlist component footprint "H6:/589D2F8E/58A6673D:".
+
+Error: Cannot add new component "H6:/589D2F8E/58A6673D" due to missing footprint "".
+
+Info: Checking netlist component footprint "J1:/589D4E5F:".
+
+Error: Cannot add new component "J1:/589D4E5F" due to missing footprint "".
+
+Info: Checking netlist component footprint "P1:/589D474B:EtherkitKicadLibrary:Pin_Header_Straight_1x02".
+
+Info: Checking netlist component footprint "P2:/58A3F681:Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm".
+
+Info: Checking netlist component footprint "P3:/589D4786:Pin_Headers:Pin_Header_Angled_2x12_Pitch2.54mm".
+
+Info: Checking netlist component footprint "P4:/58A3FCB5:Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm".
+
+Info: Checking netlist component footprint "P5:/58A533F5:Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm".
+
+Info: Checking netlist component footprint "P6:/589D3F49:Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm".
+
+Info: Checking netlist component footprint "P7:/589D4EEE:Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm".
+
+Info: Checking netlist component footprint "P8:/589D3D24:Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm".
+
+Info: Checking netlist component footprint "P9:/589D4F57:Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm".
+
+Info: Checking netlist component footprint "P10:/58A4E31E:Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm".
+
+Info: Checking netlist component footprint "P11:/58A4DFBA:Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm".
+
+Info: Checking netlist component footprint "R1:/589D3C04/589D41B2:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R2:/589D3C04/589D41E7:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R3:/589D3C04/589D421C:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R4:/589D3C04/589D429B:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R5:/589D44A4/589D45E1:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R6:/589D4DD6/589D59BB:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R7:/589D4DD6/589D5998:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R8:/589D4DD6/589D5978:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R9:/589D4DD6/589D595B:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R10:/589D4DD6/589D5E72:Resistors_ThroughHole:Resistor_Vertical_RM7.5mm".
+
+Info: Checking netlist component footprint "R11:/589D4DD6/589D5D50:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R12:/589D4DD6/58A27DDA:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R13:/589D4DD6/58A27F28:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R14:/589D4DD6/589D5EC3:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R15:/589D4DD6/589D67E2:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R16:/589D4DD6/589D68B8:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "R17:/589D4DD6/58A53865:4ms-main-parts:R-TH-1%2f8W".
+
+Info: Checking netlist component footprint "RV1:/589D2F8E/589D33DD:4ms-main-parts:16MM-RV16AF-4A".
+
+Info: Checking netlist component footprint "RV2:/589D2F8E/589D3629:4ms-main-parts:16MM-RV16AF-4A".
+
+Info: Checking netlist component footprint "RV3:/589D2F8E/58A50C3B:4ms-main-parts:16MM-RV16AF-4A".
+
+Info: Checking netlist component footprint "RV4:/589D2F8E/589D35BB:4ms-main-parts:16MM-RV16AF-4A".
+
+Info: Checking netlist component footprint "RV5:/589D2F8E/58A50D78:4ms-main-parts:16MM-RV16AF-4A".
+
+Info: Checking netlist component footprint "RV6:/589D2F8E/589D35F2:4ms-main-parts:16MM-RV16AF-4A".
+
+Info: Checking netlist component footprint "RV7:/589D4DD6/58A28022:4ms-footprints:16MM-RV16AF-4A".
+
+Info: Checking netlist component footprint "RV8:/589D4DD6/589D644C:4ms-footprints:16MM-RV16AF-4A".
+
+Info: Checking netlist component footprint "U1:/589D2F8E/589D2FAB:Sockets_DIP:DIP-14__300".
+
+Info: Checking netlist component footprint "U2:/589D3C04/589D411F:Sockets_DIP:DIP-16__300".
+
+Info: Checking netlist component footprint "U3:/589D44A4/589D457B:Sockets_DIP:DIP-16__300".
+
+Info: Checking netlist component footprint "U4:/589D4DD6/589D5A43:Sockets_DIP:DIP-8__300".
+
+Info: Checking netlist component footprint "U5:/58A40E10/58A4DBA0:Sockets_DIP:DIP-16__300".
+
+Error: Component 'C8' pad '+' not found in footprint '4ms-main-parts:C-TH-5MM'
+
+Error: Component 'C8' pad '-' not found in footprint '4ms-main-parts:C-TH-5MM'
+
+Error: Component 'C10' pad '+' not found in footprint '4ms-main-parts:C-TH-5MM'
+
+Error: Component 'C10' pad '-' not found in footprint '4ms-main-parts:C-TH-5MM'
+
+Error: Component 'C12' pad '-' not found in footprint '4ms-main-parts:C-TH-5MM'
+
+Error: Component 'C12' pad '+' not found in footprint '4ms-main-parts:C-TH-5MM'
+
+Error: Component 'C13' pad '-' not found in footprint '4ms-main-parts:C-TH-5MM'
+
+Error: Component 'C13' pad '+' not found in footprint '4ms-main-parts:C-TH-5MM'
+
+Error: Component 'R1' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R1' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R2' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R2' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R3' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R3' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R4' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R4' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R5' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R5' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R6' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R6' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R7' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R7' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R8' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R8' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R9' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R9' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R10' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R10' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R11' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R11' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R12' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R12' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R13' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R13' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R14' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R14' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R15' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R15' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R16' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R16' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R17' pad '2' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
+Error: Component 'R17' pad '1' not found in footprint '4ms-main-parts:R-TH-1%2f8W'
+
