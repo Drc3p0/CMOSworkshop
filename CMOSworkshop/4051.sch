@@ -284,4 +284,6 @@ Wire Wire Line
 	7200 2350 7200 2450
 Wire Wire Line
 	7200 2450 7000 2450
+Connection ~ 7000 3300
+Connection ~ 5600 3500
 $EndSCHEMATC
