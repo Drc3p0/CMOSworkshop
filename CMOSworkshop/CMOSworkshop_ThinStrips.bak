@@ -1,0 +1,767 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CMOSworkshop-cache
+LIBS:4ms_JST_2x8
+LIBS:4ms-headers
+LIBS:4ms-ic
+LIBS:4ms-mech
+LIBS:4ms-passives
+LIBS:4ms-power
+LIBS:AudioBoardLib
+LIBS:EtherkitKicadLibrary
+LIBS:lm4880m
+LIBS:max97220
+LIBS:STM32F429_LQFP144
+LIBS:tpa6130
+LIBS:w_microcontrollers
+LIBS:wayne_and_layne_kicad_symbols
+LIBS:CMOSworkshop_ThinStrips-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 5450 3700 2250 1600
+U 589D4DD6
+F0 "hpMixer" 60
+F1 "hpMixer.sch" 60
+$EndSheet
+$Sheet
+S 1500 5950 1350 950 
+U 589D6CC1
+F0 "power" 60
+F1 "power.sch" 60
+$EndSheet
+$Comp
+L VSS #PWR01
+U 1 1 589D6D3A
+P 3000 6100
+F 0 "#PWR01" H 3000 5950 50  0001 C CNN
+F 1 "VSS" H 3000 6250 50  0000 C CNN
+F 2 "" H 3000 6100 50  0000 C CNN
+F 3 "" H 3000 6100 50  0000 C CNN
+	1    3000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 589D6D6C
+P 3050 6750
+F 0 "#PWR02" H 3050 6500 50  0001 C CNN
+F 1 "GND" H 3050 6600 50  0000 C CNN
+F 2 "" H 3050 6750 50  0000 C CNN
+F 3 "" H 3050 6750 50  0000 C CNN
+	1    3050 6750
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 3950 2    60   Input ~ 0
+MIX1
+Text GLabel 5500 4050 2    60   Input ~ 0
+MIX2
+Text GLabel 5500 4150 2    60   Input ~ 0
+MIX3
+Text GLabel 5500 4250 2    60   Input ~ 0
+MIX4
+Text GLabel 5500 4350 2    60   Input ~ 0
+MIX5
+$Comp
+L CONN_01X05 P18
+U 1 1 58A533F5
+P 5150 4150
+F 0 "P18" H 5150 4450 50  0000 C CNN
+F 1 "MIX_IN" V 5250 4150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 5150 4150 50  0001 C CNN
+F 3 "" H 5150 4150 50  0000 C CNN
+	1    5150 4150
+	-1   0    0    1   
+$EndComp
+Text GLabel 7550 4200 0    60   Input ~ 0
+MIXOUTA
+Text GLabel 7550 4300 0    60   Input ~ 0
+MIXOUTB
+Text GLabel 2700 6150 0    60   Input ~ 0
+VCC
+Text GLabel 2750 6700 0    60   Input ~ 0
+GND
+$Comp
+L CONN_01X02 P20
+U 1 1 58A913C7
+P 8850 4250
+F 0 "P20" H 8850 4400 50  0000 C CNN
+F 1 "MixOut" V 8950 4250 50  0000 C CNN
+F 2 "EtherkitKicadLibrary:Pin_Header_Straight_1x02" H 8850 4250 50  0001 C CNN
+F 3 "" H 8850 4250 50  0000 C CNN
+	1    8850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV5
+U 1 1 58AD0187
+P 2650 1600
+F 0 "RV5" V 2475 1600 50  0000 C CNN
+F 1 "POT" V 2550 1600 50  0000 C CNN
+F 2 "4ms-footprints:POT-9MM-ALPHA" H 2650 1600 50  0001 C CNN
+F 3 "" H 2650 1600 50  0000 C CNN
+	1    2650 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P6
+U 1 1 58AD01B9
+P 1900 3200
+F 0 "P6" H 1900 3350 50  0000 C CNN
+F 1 "CONN_01X02" V 2000 3200 50  0000 C CNN
+F 2 "EtherkitKicadLibrary:Pin_Header_Straight_1x02" H 1900 3200 50  0001 C CNN
+F 3 "" H 1900 3200 50  0000 C CNN
+	1    1900 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X03 P9
+U 1 1 58AD01FA
+P 2650 2050
+F 0 "P9" H 2650 2250 50  0000 C CNN
+F 1 "CONN_01X03" V 2750 2050 50  0000 C CNN
+F 2 "4ms-footprints:Pin_Header_Straight_1x03" H 2650 2050 50  0001 C CNN
+F 3 "" H 2650 2050 50  0000 C CNN
+	1    2650 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L SPDT S1
+U 1 1 58AD0469
+P 3800 3050
+F 0 "S1" H 3790 3340 50  0000 C CNN
+F 1 "SPDT" H 3800 3250 50  0000 C CNN
+F 2 "4ms-footprints:SPDT-SUB" H 3800 3050 60  0001 C CNN
+F 3 "" H 3800 3050 60  0000 C CNN
+	1    3800 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X03 P13
+U 1 1 58AD04D6
+P 3800 2500
+F 0 "P13" H 3800 2700 50  0000 C CNN
+F 1 "CONN_01X03" V 3900 2500 50  0000 C CNN
+F 2 "4ms-footprints:Pin_Header_Straight_1x03" H 3800 2500 50  0001 C CNN
+F 3 "" H 3800 2500 50  0000 C CNN
+	1    3800 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 4350 5500 4350
+Wire Wire Line
+	5350 4250 5500 4250
+Wire Wire Line
+	5350 4150 5500 4150
+Wire Wire Line
+	5350 4050 5500 4050
+Wire Wire Line
+	5350 3950 5500 3950
+Wire Wire Line
+	7550 4200 8650 4200
+Wire Wire Line
+	7550 4300 8650 4300
+Wire Wire Line
+	3050 6750 2750 6750
+Wire Wire Line
+	2750 6750 2750 6700
+Wire Wire Line
+	3000 6100 2700 6100
+Wire Wire Line
+	2700 6100 2700 6150
+Wire Wire Line
+	2650 1850 2650 1750
+Wire Wire Line
+	2550 1850 2500 1850
+Wire Wire Line
+	2500 1850 2500 1600
+Wire Wire Line
+	2750 1850 2800 1850
+Wire Wire Line
+	2800 1850 2800 1600
+Wire Wire Line
+	3700 2700 3700 2800
+Wire Wire Line
+	3900 2700 3900 2800
+Wire Wire Line
+	3800 2700 3800 3050
+Wire Wire Line
+	3800 3050 3850 3050
+Wire Wire Line
+	3850 3050 3850 3300
+Wire Wire Line
+	3850 3300 3800 3300
+$Comp
+L Touchpad U3
+U 1 1 58AD113B
+P 1850 2900
+F 0 "U3" H 1700 3000 60  0000 C CNN
+F 1 "Touchpad" H 1850 2900 60  0000 C CNN
+F 2 "Connect:touchpad3" H 1850 2900 60  0001 C CNN
+F 3 "" H 1850 2900 60  0001 C CNN
+	1    1850 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3000 1950 2800
+Wire Wire Line
+	1950 2800 1900 2800
+$Comp
+L POT RV6
+U 1 1 58AD144D
+P 3050 1600
+F 0 "RV6" V 2875 1600 50  0000 C CNN
+F 1 "POT" V 2950 1600 50  0000 C CNN
+F 2 "4ms-footprints:POT-9MM-ALPHA" H 3050 1600 50  0001 C CNN
+F 3 "" H 3050 1600 50  0000 C CNN
+	1    3050 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P8
+U 1 1 58AD1453
+P 2300 3200
+F 0 "P8" H 2300 3350 50  0000 C CNN
+F 1 "CONN_01X02" V 2400 3200 50  0000 C CNN
+F 2 "EtherkitKicadLibrary:Pin_Header_Straight_1x02" H 2300 3200 50  0001 C CNN
+F 3 "" H 2300 3200 50  0000 C CNN
+	1    2300 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X03 P11
+U 1 1 58AD1459
+P 3050 2050
+F 0 "P11" H 3050 2250 50  0000 C CNN
+F 1 "CONN_01X03" V 3150 2050 50  0000 C CNN
+F 2 "4ms-footprints:Pin_Header_Straight_1x03" H 3050 2050 50  0001 C CNN
+F 3 "" H 3050 2050 50  0000 C CNN
+	1    3050 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L PUSHBUTTON_TACTILE S6
+U 1 1 58AD145F
+P 5800 2000
+F 0 "S6" H 5800 1885 50  0000 C CNN
+F 1 "PUSHBUTTON_TACTILE" H 5805 1785 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx" H 5800 2000 60  0001 C CNN
+F 3 "" H 5800 2000 60  0000 C CNN
+	1    5800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPDT S3
+U 1 1 58AD1465
+P 4350 3050
+F 0 "S3" H 4340 3340 50  0000 C CNN
+F 1 "SPDT" H 4350 3250 50  0000 C CNN
+F 2 "4ms-footprints:SPDT-SUB" H 4350 3050 60  0001 C CNN
+F 3 "" H 4350 3050 60  0000 C CNN
+	1    4350 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X03 P15
+U 1 1 58AD146B
+P 4350 2500
+F 0 "P15" H 4350 2700 50  0000 C CNN
+F 1 "CONN_01X03" V 4450 2500 50  0000 C CNN
+F 2 "4ms-footprints:Pin_Header_Straight_1x03" H 4350 2500 50  0001 C CNN
+F 3 "" H 4350 2500 50  0000 C CNN
+	1    4350 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 1850 3050 1750
+Wire Wire Line
+	2950 1850 2900 1850
+Wire Wire Line
+	2900 1850 2900 1600
+Wire Wire Line
+	3150 1850 3200 1850
+Wire Wire Line
+	3200 1850 3200 1600
+Wire Wire Line
+	4250 2700 4250 2800
+Wire Wire Line
+	4450 2700 4450 2800
+Wire Wire Line
+	4350 2700 4350 3050
+Wire Wire Line
+	4350 3050 4400 3050
+Wire Wire Line
+	4400 3050 4400 3300
+Wire Wire Line
+	4400 3300 4350 3300
+$Comp
+L CONN_01X02 P19
+U 1 1 58AD147C
+P 5800 1500
+F 0 "P19" H 5800 1650 50  0000 C CNN
+F 1 "CONN_01X02" V 5900 1500 50  0000 C CNN
+F 2 "EtherkitKicadLibrary:Pin_Header_Straight_1x02" H 5800 1500 50  0001 C CNN
+F 3 "" H 5800 1500 50  0000 C CNN
+	1    5800 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Touchpad U4
+U 1 1 58AD148E
+P 2250 2900
+F 0 "U4" H 2100 3000 60  0000 C CNN
+F 1 "Touchpad" H 2250 2900 60  0000 C CNN
+F 2 "Connect:touchpad3" H 2250 2900 60  0001 C CNN
+F 3 "" H 2250 2900 60  0001 C CNN
+	1    2250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3000 2350 2800
+Wire Wire Line
+	2350 2800 2300 2800
+$Comp
+L POT RV3
+U 1 1 58AD15FB
+P 1850 1600
+F 0 "RV3" V 1675 1600 50  0000 C CNN
+F 1 "POT" V 1750 1600 50  0000 C CNN
+F 2 "4ms-footprints:POT-9MM-ALPHA" H 1850 1600 50  0001 C CNN
+F 3 "" H 1850 1600 50  0000 C CNN
+	1    1850 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P2
+U 1 1 58AD1601
+P 1050 3200
+F 0 "P2" H 1050 3350 50  0000 C CNN
+F 1 "CONN_01X02" V 1150 3200 50  0000 C CNN
+F 2 "EtherkitKicadLibrary:Pin_Header_Straight_1x02" H 1050 3200 50  0001 C CNN
+F 3 "" H 1050 3200 50  0000 C CNN
+	1    1050 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X03 P5
+U 1 1 58AD1607
+P 1850 2050
+F 0 "P5" H 1850 2250 50  0000 C CNN
+F 1 "CONN_01X03" V 1950 2050 50  0000 C CNN
+F 2 "4ms-footprints:Pin_Header_Straight_1x03" H 1850 2050 50  0001 C CNN
+F 3 "" H 1850 2050 50  0000 C CNN
+	1    1850 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 1850 1850 1750
+Wire Wire Line
+	1750 1850 1700 1850
+Wire Wire Line
+	1700 1850 1700 1600
+Wire Wire Line
+	1950 1850 2000 1850
+Wire Wire Line
+	2000 1850 2000 1600
+Wire Wire Line
+	1850 2800 1850 3000
+Wire Wire Line
+	4500 3100 4450 3100
+Wire Wire Line
+	4450 3100 4450 2900
+Wire Wire Line
+	4450 2900 4500 2900
+$Comp
+L Touchpad U1
+U 1 1 58AD163C
+P 1000 2900
+F 0 "U1" H 850 3000 60  0000 C CNN
+F 1 "Touchpad" H 1000 2900 60  0000 C CNN
+F 2 "Connect:touchpad3" H 1000 2900 60  0001 C CNN
+F 3 "" H 1000 2900 60  0001 C CNN
+	1    1000 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3000 1000 2800
+Wire Wire Line
+	1100 3000 1100 2800
+Wire Wire Line
+	1100 2800 1050 2800
+$Comp
+L POT RV4
+U 1 1 58AD1645
+P 2250 1600
+F 0 "RV4" V 2075 1600 50  0000 C CNN
+F 1 "POT" V 2150 1600 50  0000 C CNN
+F 2 "4ms-footprints:POT-9MM-ALPHA" H 2250 1600 50  0001 C CNN
+F 3 "" H 2250 1600 50  0000 C CNN
+	1    2250 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 58AD164B
+P 1450 3200
+F 0 "P4" H 1450 3350 50  0000 C CNN
+F 1 "CONN_01X02" V 1550 3200 50  0000 C CNN
+F 2 "EtherkitKicadLibrary:Pin_Header_Straight_1x02" H 1450 3200 50  0001 C CNN
+F 3 "" H 1450 3200 50  0000 C CNN
+	1    1450 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X03 P7
+U 1 1 58AD1651
+P 2250 2050
+F 0 "P7" H 2250 2250 50  0000 C CNN
+F 1 "CONN_01X03" V 2350 2050 50  0000 C CNN
+F 2 "4ms-footprints:Pin_Header_Straight_1x03" H 2250 2050 50  0001 C CNN
+F 3 "" H 2250 2050 50  0000 C CNN
+	1    2250 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 1850 2250 1750
+Wire Wire Line
+	2150 1850 2100 1850
+Wire Wire Line
+	2100 1850 2100 1600
+Wire Wire Line
+	2350 1850 2400 1850
+Wire Wire Line
+	2400 1850 2400 1600
+Wire Wire Line
+	2250 2800 2250 3000
+$Comp
+L Touchpad U2
+U 1 1 58AD1686
+P 1400 2900
+F 0 "U2" H 1250 3000 60  0000 C CNN
+F 1 "Touchpad" H 1400 2900 60  0000 C CNN
+F 2 "Connect:touchpad3" H 1400 2900 60  0001 C CNN
+F 3 "" H 1400 2900 60  0001 C CNN
+	1    1400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3000 1400 2800
+Wire Wire Line
+	1500 3000 1500 2800
+Wire Wire Line
+	1500 2800 1450 2800
+$Comp
+L POT RV1
+U 1 1 58AD20D3
+P 1050 1600
+F 0 "RV1" V 875 1600 50  0000 C CNN
+F 1 "POT" V 950 1600 50  0000 C CNN
+F 2 "4ms-footprints:POT-9MM-ALPHA" H 1050 1600 50  0001 C CNN
+F 3 "" H 1050 1600 50  0000 C CNN
+	1    1050 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X03 P1
+U 1 1 58AD20D9
+P 1050 2050
+F 0 "P1" H 1050 2250 50  0000 C CNN
+F 1 "CONN_01X03" V 1150 2050 50  0000 C CNN
+F 2 "4ms-footprints:Pin_Header_Straight_1x03" H 1050 2050 50  0001 C CNN
+F 3 "" H 1050 2050 50  0000 C CNN
+	1    1050 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1050 1850 1050 1750
+Wire Wire Line
+	950  1850 900  1850
+Wire Wire Line
+	900  1850 900  1600
+Wire Wire Line
+	1150 1850 1200 1850
+Wire Wire Line
+	1200 1850 1200 1600
+$Comp
+L POT RV2
+U 1 1 58AD20E4
+P 1450 1600
+F 0 "RV2" V 1275 1600 50  0000 C CNN
+F 1 "POT" V 1350 1600 50  0000 C CNN
+F 2 "4ms-footprints:POT-9MM-ALPHA" H 1450 1600 50  0001 C CNN
+F 3 "" H 1450 1600 50  0000 C CNN
+	1    1450 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X03 P3
+U 1 1 58AD20EA
+P 1450 2050
+F 0 "P3" H 1450 2250 50  0000 C CNN
+F 1 "CONN_01X03" V 1550 2050 50  0000 C CNN
+F 2 "4ms-footprints:Pin_Header_Straight_1x03" H 1450 2050 50  0001 C CNN
+F 3 "" H 1450 2050 50  0000 C CNN
+	1    1450 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 1850 1450 1750
+Wire Wire Line
+	1350 1850 1300 1850
+Wire Wire Line
+	1300 1850 1300 1600
+Wire Wire Line
+	1550 1850 1600 1850
+Wire Wire Line
+	1600 1850 1600 1600
+$Comp
+L CONN_01X02 P10
+U 1 1 58AD218D
+P 2650 3200
+F 0 "P10" H 2650 3350 50  0000 C CNN
+F 1 "CONN_01X02" V 2750 3200 50  0000 C CNN
+F 2 "EtherkitKicadLibrary:Pin_Header_Straight_1x02" H 2650 3200 50  0001 C CNN
+F 3 "" H 2650 3200 50  0000 C CNN
+	1    2650 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Touchpad U5
+U 1 1 58AD2193
+P 2600 2900
+F 0 "U5" H 2450 3000 60  0000 C CNN
+F 1 "Touchpad" H 2600 2900 60  0000 C CNN
+F 2 "Connect:touchpad3" H 2600 2900 60  0001 C CNN
+F 3 "" H 2600 2900 60  0001 C CNN
+	1    2600 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3000 2700 2800
+Wire Wire Line
+	2700 2800 2650 2800
+$Comp
+L CONN_01X02 P12
+U 1 1 58AD219B
+P 3050 3200
+F 0 "P12" H 3050 3350 50  0000 C CNN
+F 1 "CONN_01X02" V 3150 3200 50  0000 C CNN
+F 2 "EtherkitKicadLibrary:Pin_Header_Straight_1x02" H 3050 3200 50  0001 C CNN
+F 3 "" H 3050 3200 50  0000 C CNN
+	1    3050 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Touchpad U6
+U 1 1 58AD21A1
+P 3000 2900
+F 0 "U6" H 2850 3000 60  0000 C CNN
+F 1 "Touchpad" H 3000 2900 60  0000 C CNN
+F 2 "Connect:touchpad3" H 3000 2900 60  0001 C CNN
+F 3 "" H 3000 2900 60  0001 C CNN
+	1    3000 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3000 3100 2800
+Wire Wire Line
+	3100 2800 3050 2800
+Wire Wire Line
+	2600 2800 2600 3000
+Wire Wire Line
+	3000 2800 3000 3000
+Wire Wire Line
+	6050 2000 6050 1700
+Wire Wire Line
+	6050 1700 5850 1700
+Wire Wire Line
+	5550 2000 5550 1700
+Wire Wire Line
+	5550 1700 5750 1700
+Wire Wire Line
+	5550 2100 5500 2100
+Wire Wire Line
+	5500 2100 5500 1900
+Wire Wire Line
+	5500 1900 5550 1900
+Connection ~ 5550 1900
+Wire Wire Line
+	6050 2100 6100 2100
+Wire Wire Line
+	6100 2100 6100 1900
+Wire Wire Line
+	6100 1900 6050 1900
+Connection ~ 6050 1900
+$Comp
+L PUSHBUTTON_TACTILE S5
+U 1 1 58AD39F8
+P 5150 2000
+F 0 "S5" H 5150 1885 50  0000 C CNN
+F 1 "PUSHBUTTON_TACTILE" H 5155 1785 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx" H 5150 2000 60  0001 C CNN
+F 3 "" H 5150 2000 60  0000 C CNN
+	1    5150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P17
+U 1 1 58AD39FE
+P 5150 1500
+F 0 "P17" H 5150 1650 50  0000 C CNN
+F 1 "CONN_01X02" V 5250 1500 50  0000 C CNN
+F 2 "EtherkitKicadLibrary:Pin_Header_Straight_1x02" H 5150 1500 50  0001 C CNN
+F 3 "" H 5150 1500 50  0000 C CNN
+	1    5150 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 2000 5400 1700
+Wire Wire Line
+	5400 1700 5200 1700
+Wire Wire Line
+	4900 2000 4900 1700
+Wire Wire Line
+	4900 1700 5100 1700
+Wire Wire Line
+	4900 2100 4850 2100
+Wire Wire Line
+	4850 2100 4850 1900
+Wire Wire Line
+	4850 1900 4900 1900
+Connection ~ 4900 1900
+Wire Wire Line
+	5400 2100 5450 2100
+Wire Wire Line
+	5450 2100 5450 1900
+Wire Wire Line
+	5450 1900 5400 1900
+Connection ~ 5400 1900
+$Comp
+L PUSHBUTTON_TACTILE S4
+U 1 1 58AD3AA4
+P 4500 2000
+F 0 "S4" H 4500 1885 50  0000 C CNN
+F 1 "PUSHBUTTON_TACTILE" H 4505 1785 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx" H 4500 2000 60  0001 C CNN
+F 3 "" H 4500 2000 60  0000 C CNN
+	1    4500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P16
+U 1 1 58AD3AAA
+P 4500 1500
+F 0 "P16" H 4500 1650 50  0000 C CNN
+F 1 "CONN_01X02" V 4600 1500 50  0000 C CNN
+F 2 "EtherkitKicadLibrary:Pin_Header_Straight_1x02" H 4500 1500 50  0001 C CNN
+F 3 "" H 4500 1500 50  0000 C CNN
+	1    4500 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 2000 4750 1700
+Wire Wire Line
+	4750 1700 4550 1700
+Wire Wire Line
+	4250 2000 4250 1700
+Wire Wire Line
+	4250 1700 4450 1700
+Wire Wire Line
+	4250 2100 4200 2100
+Wire Wire Line
+	4200 2100 4200 1900
+Wire Wire Line
+	4200 1900 4250 1900
+Connection ~ 4250 1900
+Wire Wire Line
+	4750 2100 4800 2100
+Wire Wire Line
+	4800 2100 4800 1900
+Wire Wire Line
+	4800 1900 4750 1900
+Connection ~ 4750 1900
+$Comp
+L PUSHBUTTON_TACTILE S2
+U 1 1 58AD3ABC
+P 3850 2000
+F 0 "S2" H 3850 1885 50  0000 C CNN
+F 1 "PUSHBUTTON_TACTILE" H 3855 1785 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx" H 3850 2000 60  0001 C CNN
+F 3 "" H 3850 2000 60  0000 C CNN
+	1    3850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P14
+U 1 1 58AD3AC2
+P 3850 1500
+F 0 "P14" H 3850 1650 50  0000 C CNN
+F 1 "CONN_01X02" V 3950 1500 50  0000 C CNN
+F 2 "EtherkitKicadLibrary:Pin_Header_Straight_1x02" H 3850 1500 50  0001 C CNN
+F 3 "" H 3850 1500 50  0000 C CNN
+	1    3850 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 2000 4100 1700
+Wire Wire Line
+	4100 1700 3900 1700
+Wire Wire Line
+	3600 2000 3600 1700
+Wire Wire Line
+	3600 1700 3800 1700
+Wire Wire Line
+	3600 2100 3550 2100
+Wire Wire Line
+	3550 2100 3550 1900
+Wire Wire Line
+	3550 1900 3600 1900
+Connection ~ 3600 1900
+Wire Wire Line
+	4100 2100 4150 2100
+Wire Wire Line
+	4150 2100 4150 1900
+Wire Wire Line
+	4150 1900 4100 1900
+Connection ~ 4100 1900
+$EndSCHEMATC

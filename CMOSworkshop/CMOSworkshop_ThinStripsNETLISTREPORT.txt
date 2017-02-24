@@ -1,0 +1,164 @@
+Info: Reading netlist file "/Users/Drc3p0/Desktop/CMOSworkshopGIT/CMOSworkshop/CMOSworkshop_ThinStrips.net".
+
+Info: Using references to match components and footprints.
+
+* Warning: component 'C4': board footprint 'Capacitors_THT:CP_Radial_D5.0mm_P2.50mm', netlist footprint 'Capacitors_ThroughHole:C_Radial_D5_L11_P2.5'
+
+* Warning: component 'C2': board footprint 'Capacitors_THT:CP_Radial_D5.0mm_P2.50mm', netlist footprint 'Capacitors_ThroughHole:C_Radial_D5_L11_P2.5'
+
+* Warning: component 'C6': board footprint 'Capacitors_THT:CP_Radial_D5.0mm_P2.50mm', netlist footprint 'Capacitors_ThroughHole:C_Radial_D5_L11_P2.5'
+
+Info: Checking netlist component footprint "C1:/589D4DD6/589D5FCE:Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm".
+
+Info: Checking netlist component footprint "C2:/589D4DD6/58A27D1D:Capacitors_ThroughHole:C_Radial_D5_L11_P2.5".
+
+Info: Checking netlist component footprint "C3:/589D4DD6/58A27E7C:Capacitors_THT:CP_Radial_D5.0mm_P2.50mm".
+
+Info: Checking netlist component footprint "C4:/589D4DD6/58A28220:Capacitors_ThroughHole:C_Radial_D5_L11_P2.5".
+
+Info: Checking netlist component footprint "C5:/589D4DD6/589D6047:Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm".
+
+Info: Checking netlist component footprint "C6:/589D4DD6/589D6644:Capacitors_ThroughHole:C_Radial_D5_L11_P2.5".
+
+Info: Checking netlist component footprint "D1:/589D6CC1/58A8DBDC:LEDs:LED_D3.0mm".
+
+Info: Checking netlist component footprint "D2:/589D6CC1/58A8D28D:Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10".
+
+Info: Checking netlist component footprint "J1:/589D4DD6/58A8EAE0:malekko main:J355W".
+
+Info: Checking netlist component footprint "P1:/58AD20D9:4ms-footprints:Pin_Header_Straight_1x03".
+
+Info: Checking netlist component footprint "P2:/58AD1601:EtherkitKicadLibrary:Pin_Header_Straight_1x02".
+
+Info: Checking netlist component footprint "P3:/58AD20EA:4ms-footprints:Pin_Header_Straight_1x03".
+
+Info: Checking netlist component footprint "P4:/58AD164B:EtherkitKicadLibrary:Pin_Header_Straight_1x02".
+
+Info: Checking netlist component footprint "P5:/58AD1607:4ms-footprints:Pin_Header_Straight_1x03".
+
+Info: Checking netlist component footprint "P6:/58AD01B9:EtherkitKicadLibrary:Pin_Header_Straight_1x02".
+
+Info: Checking netlist component footprint "P7:/58AD1651:4ms-footprints:Pin_Header_Straight_1x03".
+
+Info: Checking netlist component footprint "P8:/58AD1453:EtherkitKicadLibrary:Pin_Header_Straight_1x02".
+
+Info: Checking netlist component footprint "P9:/58AD01FA:4ms-footprints:Pin_Header_Straight_1x03".
+
+Info: Checking netlist component footprint "P10:/58AD218D:EtherkitKicadLibrary:Pin_Header_Straight_1x02".
+
+Info: Checking netlist component footprint "P11:/58AD1459:4ms-footprints:Pin_Header_Straight_1x03".
+
+Info: Checking netlist component footprint "P12:/58AD219B:EtherkitKicadLibrary:Pin_Header_Straight_1x02".
+
+Info: Checking netlist component footprint "P13:/58AD04D6:4ms-footprints:Pin_Header_Straight_1x03".
+
+Info: Checking netlist component footprint "P14:/58AD3AC2:EtherkitKicadLibrary:Pin_Header_Straight_1x02".
+
+Info: Checking netlist component footprint "P15:/58AD146B:4ms-footprints:Pin_Header_Straight_1x03".
+
+Info: Checking netlist component footprint "P16:/58AD3AAA:EtherkitKicadLibrary:Pin_Header_Straight_1x02".
+
+Info: Checking netlist component footprint "P17:/58AD39FE:EtherkitKicadLibrary:Pin_Header_Straight_1x02".
+
+Info: Checking netlist component footprint "P18:/58A533F5:Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm".
+
+Info: Checking netlist component footprint "P19:/58AD147C:EtherkitKicadLibrary:Pin_Header_Straight_1x02".
+
+Info: Checking netlist component footprint "P20:/58A913C7:EtherkitKicadLibrary:Pin_Header_Straight_1x02".
+
+Info: Checking netlist component footprint "R1:/589D4DD6/589D59BB:4ms-footprints:R-TH".
+
+Info: Checking netlist component footprint "R2:/589D4DD6/589D5998:4ms-footprints:R-TH".
+
+Info: Checking netlist component footprint "R3:/589D4DD6/589D5978:4ms-footprints:R-TH".
+
+Info: Checking netlist component footprint "R4:/589D4DD6/589D595B:4ms-footprints:R-TH".
+
+Info: Checking netlist component footprint "R5:/589D4DD6/58A53865:4ms-footprints:R-TH".
+
+Info: Checking netlist component footprint "R6:/589D4DD6/589D5E72:4ms-footprints:R-TH".
+
+Info: Checking netlist component footprint "R7:/589D4DD6/589D5D50:4ms-footprints:R-TH".
+
+Info: Checking netlist component footprint "R8:/589D4DD6/58A27DDA:4ms-footprints:R-TH".
+
+Info: Checking netlist component footprint "R9:/589D4DD6/58A27F28:4ms-footprints:R-TH".
+
+Info: Checking netlist component footprint "R10:/589D4DD6/589D5EC3:4ms-footprints:R-TH".
+
+Info: Checking netlist component footprint "R11:/589D4DD6/589D67E2:4ms-footprints:R-TH".
+
+Info: Checking netlist component footprint "R12:/589D4DD6/589D68B8:4ms-footprints:R-TH".
+
+Info: Checking netlist component footprint "R13:/589D6CC1/58A8DD9C:4ms-footprints:R-TH".
+
+Info: Checking netlist component footprint "RV1:/58AD20D3:4ms-footprints:POT-9MM-ALPHA".
+
+Info: Checking netlist component footprint "RV2:/58AD20E4:4ms-footprints:POT-9MM-ALPHA".
+
+Info: Checking netlist component footprint "RV3:/58AD15FB:4ms-footprints:POT-9MM-ALPHA".
+
+Info: Checking netlist component footprint "RV4:/58AD1645:4ms-footprints:POT-9MM-ALPHA".
+
+Info: Checking netlist component footprint "RV5:/58AD0187:4ms-footprints:POT-9MM-ALPHA".
+
+Info: Checking netlist component footprint "RV6:/58AD144D:4ms-footprints:POT-9MM-ALPHA".
+
+Info: Checking netlist component footprint "RV7:/589D4DD6/58A28022:4ms-footprints:POT-9MM-ALPHA".
+
+Info: Checking netlist component footprint "RV8:/589D4DD6/589D644C:4ms-footprints:POT-9MM-ALPHA".
+
+Info: Checking netlist component footprint "S1:/58AD0469:4ms-footprints:SPDT-SUB".
+
+Info: Checking netlist component footprint "S2:/58AD3ABC:Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx".
+
+Info: Checking netlist component footprint "S3:/58AD1465:4ms-footprints:SPDT-SUB".
+
+Info: Checking netlist component footprint "S4:/58AD3AA4:Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx".
+
+Info: Checking netlist component footprint "S5:/58AD39F8:Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx".
+
+Info: Checking netlist component footprint "S6:/58AD145F:Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx".
+
+Info: Checking netlist component footprint "S7:/589D6CC1/58AD2C37:4ms-footprints:SPDT-SUB".
+
+Info: Checking netlist component footprint "U1:/58AD163C:Connect:touchpad2".
+
+Info: Checking netlist component footprint "U2:/58AD1686:Connect:touchpad2".
+
+Info: Checking netlist component footprint "U3:/58AD113B:Connect:touchpad2".
+
+Info: Checking netlist component footprint "U4:/58AD148E:Connect:touchpad2".
+
+Info: Checking netlist component footprint "U5:/58AD2193:Connect:touchpad2".
+
+Info: Checking netlist component footprint "U6:/58AD21A1:Connect:touchpad2".
+
+Info: Checking netlist component footprint "U7:/589D4DD6/589D5A43:Sockets_DIP:DIP-8__300".
+
+Info: Checking netlist component footprint "U8:/589D6CC1/58A8CEFA:Battery_Holders:Battery_Conn".
+
+Error: Component 'C2' pad '-' not found in footprint 'Capacitors_THT:CP_Radial_D5.0mm_P2.50mm'
+
+Error: Component 'C2' pad '+' not found in footprint 'Capacitors_THT:CP_Radial_D5.0mm_P2.50mm'
+
+Error: Component 'C4' pad '+' not found in footprint 'Capacitors_THT:CP_Radial_D5.0mm_P2.50mm'
+
+Error: Component 'C4' pad '-' not found in footprint 'Capacitors_THT:CP_Radial_D5.0mm_P2.50mm'
+
+Error: Component 'C6' pad '+' not found in footprint 'Capacitors_THT:CP_Radial_D5.0mm_P2.50mm'
+
+Error: Component 'C6' pad '-' not found in footprint 'Capacitors_THT:CP_Radial_D5.0mm_P2.50mm'
+
+Error: Component 'U1' pad '1' not found in footprint 'Connect:touchpad2'
+
+Error: Component 'U2' pad '1' not found in footprint 'Connect:touchpad2'
+
+Error: Component 'U3' pad '1' not found in footprint 'Connect:touchpad2'
+
+Error: Component 'U4' pad '1' not found in footprint 'Connect:touchpad2'
+
+Error: Component 'U5' pad '1' not found in footprint 'Connect:touchpad2'
+
+Error: Component 'U6' pad '1' not found in footprint 'Connect:touchpad2'
+
