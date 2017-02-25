@@ -114,7 +114,7 @@ U 1 1 58A8CEFA
 P 9700 3850
 F 0 "U8" H 9750 4550 60  0000 C CNN
 F 1 "BAT9V" H 9750 3700 60  0000 C CNN
-F 2 "Battery_Holders:Battery_Conn" H 9700 3850 60  0001 C CNN
+F 2 "DRCs parts:9V_BatteryHolder_Keystone" H 9700 3850 60  0001 C CNN
 F 3 "" H 9700 3850 60  0000 C CNN
 	1    9700 3850
 	1    0    0    -1  
