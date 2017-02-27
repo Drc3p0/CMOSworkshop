@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:CMOSworkshop_ThinStrips-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,20 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:CMOSworkshop-cache
-LIBS:4ms_JST_2x8
-LIBS:4ms-headers
-LIBS:4ms-ic
-LIBS:4ms-mech
-LIBS:4ms-passives
-LIBS:4ms-power
-LIBS:AudioBoardLib
-LIBS:EtherkitKicadLibrary
-LIBS:lm4880m
-LIBS:max97220
-LIBS:STM32F429_LQFP144
-LIBS:tpa6130
-LIBS:w_microcontrollers
-LIBS:wayne_and_layne_kicad_symbols
 LIBS:CMOSworkshop_ThinStrips-cache
 EELAYER 25 0
 EELAYER END
@@ -59,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R_Small R9
+L R_Small-RESCUE-CMOSworkshop_ThinStrips R9
 U 1 1 589D595B
 P 4150 3250
 F 0 "R9" V 4200 3200 50  0000 L CNN
@@ -70,7 +57,7 @@ F 3 "" H 4150 3250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R8
+L R_Small-RESCUE-CMOSworkshop_ThinStrips R8
 U 1 1 589D5978
 P 4150 3150
 F 0 "R8" V 4200 3100 50  0000 L CNN
@@ -81,7 +68,7 @@ F 3 "" H 4150 3150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R7
+L R_Small-RESCUE-CMOSworkshop_ThinStrips R7
 U 1 1 589D5998
 P 4150 3050
 F 0 "R7" V 4200 3000 50  0000 L CNN
@@ -92,7 +79,7 @@ F 3 "" H 4150 3050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R6
+L R_Small-RESCUE-CMOSworkshop_ThinStrips R6
 U 1 1 589D59BB
 P 4150 2950
 F 0 "R6" V 4200 2900 50  0000 L CNN
@@ -145,7 +132,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 2950 4050 2950
 $Comp
-L R_Small R11
+L R_Small-RESCUE-CMOSworkshop_ThinStrips R11
 U 1 1 589D5D50
 P 6950 3300
 F 0 "R11" V 7000 3250 50  0000 L CNN
@@ -162,7 +149,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 4000 7200 3500
 $Comp
-L R_Small R10
+L R_Small-RESCUE-CMOSworkshop_ThinStrips R10
 U 1 1 589D5E72
 P 6450 2700
 F 0 "R10" V 6500 2650 50  0000 L CNN
@@ -173,7 +160,7 @@ F 3 "" H 6450 2700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R14
+L R_Small-RESCUE-CMOSworkshop_ThinStrips R14
 U 1 1 589D5EC3
 P 7400 2750
 F 0 "R14" V 7450 2700 50  0000 L CNN
@@ -253,7 +240,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 2850 6400 3000
 $Comp
-L POT RV8
+L POT-RESCUE-CMOSworkshop_ThinStrips RV8
 U 1 1 589D644C
 P 7800 3700
 F 0 "RV8" V 7625 3700 50  0000 C CNN
@@ -268,9 +255,11 @@ Wire Wire Line
 	7800 4000 7800 3850
 Connection ~ 7200 4000
 $Comp
-L CP1_Small C13
+L CP1_Small-RESCUE-CMOSworkshop_ThinStrips C13
 U 1 1 589D6644
 P 8050 3700
+AR Path="/589D6644" Ref="C13"  Part="1" 
+AR Path="/589D4DD6/589D6644" Ref="C13"  Part="1" 
 F 0 "C13" H 8060 3770 50  0000 L CNN
 F 1 "10uF" V 7950 3600 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 8050 3700 50  0001 C CNN
@@ -283,7 +272,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 3300 8850 3300
 $Comp
-L R_Small R15
+L R_Small-RESCUE-CMOSworkshop_ThinStrips R15
 U 1 1 589D67E2
 P 8400 3150
 F 0 "R15" V 8450 3100 50  0000 L CNN
@@ -294,7 +283,7 @@ F 3 "" H 8400 3150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R16
+L R_Small-RESCUE-CMOSworkshop_ThinStrips R16
 U 1 1 589D68B8
 P 8400 3300
 F 0 "R16" V 8450 3250 50  0000 L CNN
@@ -318,9 +307,11 @@ Connection ~ 8200 3700
 Wire Wire Line
 	4450 2950 4450 3350
 $Comp
-L CP1_Small C8
+L CP1_Small-RESCUE-CMOSworkshop_ThinStrips C8
 U 1 1 58A27D1D
 P 4650 3200
+AR Path="/58A27D1D" Ref="C8"  Part="1" 
+AR Path="/589D4DD6/58A27D1D" Ref="C8"  Part="1" 
 F 0 "C8" H 4660 3270 50  0000 L CNN
 F 1 "1uF" H 4660 3120 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 4650 3200 50  0001 C CNN
@@ -329,7 +320,7 @@ F 3 "" H 4650 3200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R12
+L R_Small-RESCUE-CMOSworkshop_ThinStrips R12
 U 1 1 58A27DDA
 P 5000 3050
 F 0 "R12" V 4900 3000 50  0000 L CNN
@@ -351,7 +342,7 @@ F 3 "" H 5000 3300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R13
+L R_Small-RESCUE-CMOSworkshop_ThinStrips R13
 U 1 1 58A27F28
 P 5200 3450
 F 0 "R13" H 5230 3470 50  0000 L CNN
@@ -362,7 +353,7 @@ F 3 "" H 5200 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV7
+L POT-RESCUE-CMOSworkshop_ThinStrips RV7
 U 1 1 58A28022
 P 5500 3050
 F 0 "RV7" V 5325 3050 50  0000 C CNN
@@ -378,9 +369,11 @@ Connection ~ 4900 3200
 Wire Wire Line
 	5200 3300 5200 3350
 $Comp
-L CP1_Small C10
+L CP1_Small-RESCUE-CMOSworkshop_ThinStrips C10
 U 1 1 58A28220
 P 5900 3200
+AR Path="/58A28220" Ref="C10"  Part="1" 
+AR Path="/589D4DD6/58A28220" Ref="C10"  Part="1" 
 F 0 "C10" H 5910 3270 50  0000 L CNN
 F 1 "1uF" H 5910 3120 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 5900 3200 50  0001 C CNN
@@ -420,7 +413,7 @@ Wire Wire Line
 Text GLabel 3900 2950 0    60   Input ~ 0
 MIX1
 $Comp
-L R_Small R17
+L R_Small-RESCUE-CMOSworkshop_ThinStrips R17
 U 1 1 58A53865
 P 4150 3350
 F 0 "R17" V 4200 3300 50  0000 L CNN
@@ -534,7 +527,7 @@ Wire Wire Line
 NoConn ~ 7400 3700
 NoConn ~ 7400 3100
 Wire Wire Line
-	6150 3200 6000 3200
+	6000 3200 6200 3200
 Text Notes 6950 4150 0    60   ~ 0
 All Electric kitchen mixer\n
 $EndSCHEMATC

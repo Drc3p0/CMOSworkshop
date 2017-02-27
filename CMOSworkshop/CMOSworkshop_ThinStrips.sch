@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:CMOSworkshop_ThinStrips-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,20 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:CMOSworkshop-cache
-LIBS:4ms_JST_2x8
-LIBS:4ms-headers
-LIBS:4ms-ic
-LIBS:4ms-mech
-LIBS:4ms-passives
-LIBS:4ms-power
-LIBS:AudioBoardLib
-LIBS:EtherkitKicadLibrary
-LIBS:lm4880m
-LIBS:max97220
-LIBS:STM32F429_LQFP144
-LIBS:tpa6130
-LIBS:w_microcontrollers
-LIBS:wayne_and_layne_kicad_symbols
 LIBS:CMOSworkshop_ThinStrips-cache
 EELAYER 25 0
 EELAYER END
@@ -133,7 +120,7 @@ F 3 "" H 8850 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV5
+L POT-RESCUE-CMOSworkshop_ThinStrips RV5
 U 1 1 58AD0187
 P 2650 1600
 F 0 "RV5" V 2475 1600 50  0000 C CNN
@@ -247,7 +234,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 2800 1900 2800
 $Comp
-L POT RV6
+L POT-RESCUE-CMOSworkshop_ThinStrips RV6
 U 1 1 58AD144D
 P 3050 1600
 F 0 "RV6" V 2875 1600 50  0000 C CNN
@@ -361,7 +348,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2800 2300 2800
 $Comp
-L POT RV3
+L POT-RESCUE-CMOSworkshop_ThinStrips RV3
 U 1 1 58AD15FB
 P 1850 1600
 F 0 "RV3" V 1675 1600 50  0000 C CNN
@@ -429,7 +416,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 2800 1050 2800
 $Comp
-L POT RV4
+L POT-RESCUE-CMOSworkshop_ThinStrips RV4
 U 1 1 58AD1645
 P 2250 1600
 F 0 "RV4" V 2075 1600 50  0000 C CNN
@@ -491,7 +478,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 2800 1450 2800
 $Comp
-L POT RV1
+L POT-RESCUE-CMOSworkshop_ThinStrips RV1
 U 1 1 58AD20D3
 P 1050 1600
 F 0 "RV1" V 875 1600 50  0000 C CNN
@@ -523,7 +510,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 1850 1200 1600
 $Comp
-L POT RV2
+L POT-RESCUE-CMOSworkshop_ThinStrips RV2
 U 1 1 58AD20E4
 P 1450 1600
 F 0 "RV2" V 1275 1600 50  0000 C CNN

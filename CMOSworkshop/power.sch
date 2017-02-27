@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:CMOSworkshop_ThinStrips-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,20 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:CMOSworkshop-cache
-LIBS:4ms_JST_2x8
-LIBS:4ms-headers
-LIBS:4ms-ic
-LIBS:4ms-mech
-LIBS:4ms-passives
-LIBS:4ms-power
-LIBS:AudioBoardLib
-LIBS:EtherkitKicadLibrary
-LIBS:lm4880m
-LIBS:max97220
-LIBS:STM32F429_LQFP144
-LIBS:tpa6130
-LIBS:w_microcontrollers
-LIBS:wayne_and_layne_kicad_symbols
 LIBS:CMOSworkshop_ThinStrips-cache
 EELAYER 25 0
 EELAYER END
@@ -153,7 +140,7 @@ F 3 "" H 9050 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-CMOSworkshop_ThinStrips D1
 U 1 1 58A8DBDC
 P 7750 3900
 F 0 "D1" H 7750 4000 50  0000 C CNN
@@ -175,7 +162,7 @@ F 3 "" H 7750 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R13
+L R_Small-RESCUE-CMOSworkshop_ThinStrips R13
 U 1 1 58A8DD9C
 P 7750 4150
 F 0 "R13" H 7780 4170 50  0000 L CNN
