@@ -1,4 +1,4 @@
-update=Sunday, February 26, 2017 'PMt' 07:26:24 PM
+update=Monday, February 27, 2017 'PMt' 05:43:50 PM
 version=1
 last_client=kicad
 [general]
@@ -76,3 +76,13 @@ LibName42=/Users/Drc3p0/Github Repos/backup _lib/lib-sch/STM32F429_LQFP144
 LibName43=/Users/Drc3p0/Github Repos/backup _lib/lib-sch/tpa6130
 LibName44=/Users/Drc3p0/Github Repos/backup _lib/lib-sch/w_microcontrollers
 LibName45=/Users/Drc3p0/Github Repos/backup _lib/lib-sch/wayne_and_layne_kicad_symbols
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

@@ -30,6 +30,20 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:CMOSworkshop-cache
+LIBS:4ms_JST_2x8
+LIBS:4ms-headers
+LIBS:4ms-ic
+LIBS:4ms-mech
+LIBS:4ms-passives
+LIBS:4ms-power
+LIBS:AudioBoardLib
+LIBS:EtherkitKicadLibrary
+LIBS:lm4880m
+LIBS:max97220
+LIBS:STM32F429_LQFP144
+LIBS:tpa6130
+LIBS:w_microcontrollers
+LIBS:wayne_and_layne_kicad_symbols
 LIBS:CMOSworkshop_ThinStrips-cache
 EELAYER 25 0
 EELAYER END
