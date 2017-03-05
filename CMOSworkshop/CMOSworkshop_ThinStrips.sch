@@ -233,12 +233,12 @@ Wire Wire Line
 Wire Wire Line
 	3850 3300 3800 3300
 $Comp
-L Touchpad U3
+L Touchpad T3
 U 1 1 58AD113B
 P 1850 2900
-F 0 "U3" H 1700 3000 60  0000 C CNN
+F 0 "T3" H 1700 3000 60  0000 C CNN
 F 1 "Touchpad" H 1850 2900 60  0000 C CNN
-F 2 "Connect:touchpad3" H 1850 2900 60  0001 C CNN
+F 2 "DRCs parts:touchpadCopper" H 1850 2900 60  0001 C CNN
 F 3 "" H 1850 2900 60  0001 C CNN
 	1    1850 2900
 	1    0    0    -1  
@@ -347,12 +347,12 @@ F 3 "" H 5800 1500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Touchpad U4
+L Touchpad T4
 U 1 1 58AD148E
 P 2250 2900
-F 0 "U4" H 2100 3000 60  0000 C CNN
+F 0 "T4" H 2100 3000 60  0000 C CNN
 F 1 "Touchpad" H 2250 2900 60  0000 C CNN
-F 2 "Connect:touchpad3" H 2250 2900 60  0001 C CNN
+F 2 "DRCs parts:touchpadCopper" H 2250 2900 60  0001 C CNN
 F 3 "" H 2250 2900 60  0001 C CNN
 	1    2250 2900
 	1    0    0    -1  
@@ -413,12 +413,12 @@ Wire Wire Line
 Wire Wire Line
 	4450 2900 4500 2900
 $Comp
-L Touchpad U1
+L Touchpad T1
 U 1 1 58AD163C
 P 1000 2900
-F 0 "U1" H 850 3000 60  0000 C CNN
+F 0 "T1" H 850 3000 60  0000 C CNN
 F 1 "Touchpad" H 1000 2900 60  0000 C CNN
-F 2 "Connect:touchpad3" H 1000 2900 60  0001 C CNN
+F 2 "DRCs parts:touchpadCopper" H 1000 2900 60  0001 C CNN
 F 3 "" H 1000 2900 60  0001 C CNN
 	1    1000 2900
 	1    0    0    -1  
@@ -475,12 +475,12 @@ Wire Wire Line
 Wire Wire Line
 	2250 2800 2250 3000
 $Comp
-L Touchpad U2
+L Touchpad T2
 U 1 1 58AD1686
 P 1400 2900
-F 0 "U2" H 1250 3000 60  0000 C CNN
+F 0 "T2" H 1250 3000 60  0000 C CNN
 F 1 "Touchpad" H 1400 2900 60  0000 C CNN
-F 2 "Connect:touchpad3" H 1400 2900 60  0001 C CNN
+F 2 "DRCs parts:touchpadCopper" H 1400 2900 60  0001 C CNN
 F 3 "" H 1400 2900 60  0001 C CNN
 	1    1400 2900
 	1    0    0    -1  
@@ -567,12 +567,12 @@ F 3 "" H 2650 3200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Touchpad U5
+L Touchpad T5
 U 1 1 58AD2193
 P 2600 2900
-F 0 "U5" H 2450 3000 60  0000 C CNN
+F 0 "T5" H 2450 3000 60  0000 C CNN
 F 1 "Touchpad" H 2600 2900 60  0000 C CNN
-F 2 "Connect:touchpad3" H 2600 2900 60  0001 C CNN
+F 2 "DRCs parts:touchpadCopper" H 2600 2900 60  0001 C CNN
 F 3 "" H 2600 2900 60  0001 C CNN
 	1    2600 2900
 	1    0    0    -1  
@@ -593,12 +593,12 @@ F 3 "" H 3050 3200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Touchpad U6
+L Touchpad T6
 U 1 1 58AD21A1
 P 3000 2900
-F 0 "U6" H 2850 3000 60  0000 C CNN
+F 0 "T6" H 2850 3000 60  0000 C CNN
 F 1 "Touchpad" H 3000 2900 60  0000 C CNN
-F 2 "Connect:touchpad3" H 3000 2900 60  0001 C CNN
+F 2 "DRCs parts:touchpadCopper" H 3000 2900 60  0001 C CNN
 F 3 "" H 3000 2900 60  0001 C CNN
 	1    3000 2900
 	1    0    0    -1  
