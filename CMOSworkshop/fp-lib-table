@@ -1,7 +1,0 @@
-(fp_lib_table
-  (lib (name "DRCs parts")(type KiCad)(uri "$(KIPRJMOD)/DRCs parts.pretty")(options "")(descr ""))
-<<<<<<< HEAD
-  (lib (name CMOSworkshop)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
-=======
->>>>>>> origin/master
-)
