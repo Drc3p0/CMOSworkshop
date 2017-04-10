@@ -427,9 +427,9 @@ Wire Wire Line
 Connection ~ 6650 3450
 Text Notes 7000 7050 0    60   ~ 0
 Examples of different ways of driving the 4046, \nusing variable resistors and the 40106 as an FM source.
-Text Notes 9950 6050 0    60   ~ 0
+Text Notes 9750 6150 0    60   ~ 0
 There is a square wave \navailable at pin 2, \nor a quieter triangle wave \navailable at pin 1.  \nThe 40106 has 6 different \noscillator sources available.
-Text Notes 6200 6200 0    60   ~ 0
+Text Notes 6400 6400 0    60   ~ 0
 With some additional circuitry, \nyou can produce several \ndifferent waveforms, \nsuch as sine, saw and triangle wave.  \nThomas Henry has a well documented\ndesign to do this, \nwhich you can build yourself.  \n(link is listed on the workshop handout)
 Wire Wire Line
 	8650 3650 8650 3250
